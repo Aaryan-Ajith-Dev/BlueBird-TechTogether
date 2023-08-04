@@ -1,0 +1,152 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --yellow: #CFDDE6;
+  --gold: #446584;
+  --pale: #D3E1EA;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: radial-gradient(circle at 76% 31%, rgb(30, 30, 30) 0%, rgb(15, 15, 15) 99.4%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  background-size: cover;
+  margin: 0px;
+  overflow-x: hidden;  
+}
+
+/* About css---------------------- */
+.signUp {
+  color: #141414;
+  font-size:8vw;
+  font-family: Katibeh,sans-serif;
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.about .ig-icon{
+  position: absolute;
+  top: 85%;
+  left: 10%;
+} 
+
+.about .icon-txt{
+  position: absolute;
+  line-height: 85%;
+  transform: translate(70%,-120%);
+  font-family: Katibeh, sans-serif;
+  color: #A1C6E8;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+} 
+
+.about .go-icon{
+  position: absolute;
+  top: 75%;
+  left: 10%;
+} 
+
+.about .icon-txt2{
+  position: absolute;
+  line-height: 85%;
+  transform: translate(70%,-120%);
+  font-family: Katibeh, sans-serif;
+  color: #A1C6E8;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+} 
+
+.about .go-icon:hover .icon-txt2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.about .ig-icon:hover .icon-txt {
+  visibility: visible;
+  opacity: 1;
+}
+
+.about{
+  height: 100vh;
+  text-align: left;
+  transform: translateY(200%);
+  cursor:crosshair;
+}
+
+.cursor {
+  background-color: #D5E3EC;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.text-side{
+  overflow: hidden;
+  font-family: Katibeh, sans-serif;
+  line-height: 85%;
+  position: absolute;
+  top: 30%;
+  left:10%;
+  max-width: 30%;
+  font-size:x-large;
+}
+
+#top-view{
+  z-index: 2;
+  color: #D5E3EC;
+}
+
+#bottom-view{
+  color: #000;
+}
+
+.abt-img{
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  scale: 0.8;
+  z-index: -1;
+  visibility: visible;
+}
+
+.abt-img-hid{
+  position: absolute;
+  left: 45%;
+  scale: 0.08;
+  transform: translateY(-30%);
+}
+
+.abt-hid-text{
+  font-size:x-large;
+  font-weight: bold;
+  font-family: Katibeh, sans-serif;
+  color: #000;
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  scale: 0.8;
+}
