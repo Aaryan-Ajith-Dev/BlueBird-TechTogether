@@ -95,11 +95,11 @@ const About = () => {
         animate={cursorVariant} />
 
       <div id='top-view' onMouseEnter={textEnter} onMouseLeave={textLeave} className='text-side'>      
-        <p>We are the driving force behind one of the most prestigious and trend-setting fashion events in the world. Our passion for fashion, coupled with our dedication to excellence, has allowed us to curate unforgettable fashion experiences that captivate audiences and leave an indelible mark on the industry.</p>
+        <p>Our vision is rooted in the belief that every person has the right to live authentically, free from discrimination and prejudice. We envision a world where diversity is celebrated as a strength, where individuals are encouraged to be true to themselves, and where unity and understanding prevail over ignorance and hatred.</p>
       </div>
       
       <div id='bottom-view' className='text-side'>
-        <p>We envision a world where fashion is more than just clothing; it's an expression of art, culture, and identity. Our mission is to create a platform that celebrates the diversity and creativity of the fashion world while providing opportunities for emerging talent to shine on a global stage.</p>
+        <p>One of the cornerstones of our organization is our unwavering commitment to the LGBTQ+ community. We stand in solidarity with LGBTQ+ individuals and their allies, advocating for their rights and well-being. Through awareness campaigns, educational initiatives, and support programs, we strive to create a safe and nurturing environment for the LGBTQ+ community to thrive..</p>
       </div>
 
       <img src={shoe} alt="Product-Image" className='abt-img'></img>
