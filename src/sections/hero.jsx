@@ -8,23 +8,23 @@ import ExploreCard from '../components/ExploreCard';
 const exploreWorlds = [
   {
     id: 'review-1',
-    imgUrl: '../src/assets/pic1.jpg',
-    title: 'A',
+    imgUrl: '../src/assets/r1.png',
+    title: 'Australian Chef',
   },
   {
     id: 'review-2',
-    imgUrl: '../src/assets/pic1.jpg',
-    title: 'B',
+    imgUrl: '../src/assets/r2.png',
+    title: 'America Writer',
   },
   {
     id: 'review-3',
-    imgUrl: '../src/assets/pic1.jpg',
-    title: 'C',
+    imgUrl: '../src/assets/r6.png',
+    title: 'Swedish Actress',
   },
   {
     id: 'review-4',
-    imgUrl: '../src/assets/pic1.jpg',
-    title: 'D',
+    imgUrl: '../src/assets/r5.png',
+    title: 'Canadian Singer',
   }
 
 ];
@@ -42,7 +42,7 @@ const Hero = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| Reviews" textStyles="text-center" />
-        <TitleText title={<>Reviews</>} textStyles="text-center" />
+        <TitleText title={<>Testimonials</>} textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard

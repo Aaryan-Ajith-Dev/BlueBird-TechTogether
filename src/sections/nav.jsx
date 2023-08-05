@@ -7,7 +7,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} py-8 relative bg-op-black`}
   >
     
     <div className="absolute w-[50%] inset-0"/>
@@ -16,16 +16,17 @@ const Navbar = () => (
     >
 
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        Blue 
+        Blue Bird
       </h2>
       <h1></h1>
       <h2 className=""></h2>
       <h2 className="font-extrabold -[24px] leading-[30.24px] text-white"></h2>
       <h2 className="font-extrabold -[24px] leading-[30.24px] text-white"></h2>
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">About us</h2>
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">Events</h2>
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">login/signup</h2>
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#' className='hover:text-slate-600 hover:text-base'>About us</a></h2>
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#' className='hover:text-slate-600 hover:text-base'>Events</a></h2>
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#' className='hover:text-slate-600 hover:text-base'>login/signup</a></h2>
     </div>
+    <img src='../src/assets/blue-bird-logo.png' className='h-90 w-90'></img>
   </motion.nav>
 );
 
