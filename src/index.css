@@ -52,7 +52,7 @@ body {
   width: 10%;
   background-color: #fde74c;
   background-image: linear-gradient(319deg, #fde74c 0%, #32ff7a 37%, #2fcbe0 100%);
-    color: #000;
+  color: #000;
   text-align: center;
   font-family: Kalibeh,sans-serif;
   font-weight: 700;
@@ -72,6 +72,7 @@ body {
 }
 
 .tile {
+  color: #000;
   border-radius: 0;
   position: absolute;
   transition: transform 800ms ease;
@@ -216,6 +217,25 @@ body {
 
 
 /* About css---------------------- */
+.side {
+  display: grid;
+  height: 100%; /* Set a fixed height for .side */
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+
+.side .ev-title {
+  font-family: "Kantumruy", sans-serif;
+  color: #000;
+  font-size: 9vw;
+  font-weight: 800;
+  text-align: left;
+  width: 800vw;
+}
+
 .signUp {
   color: #AE46FF;
   font-size:8vw;
