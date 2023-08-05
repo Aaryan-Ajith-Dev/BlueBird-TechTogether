@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { shoe, qrcode} from '../assets';
+import { shoe} from '../assets';
 
 
 const About = () => {
@@ -34,7 +34,7 @@ const About = () => {
     icon: {
       height: 80,
       width: 166,
-      x: mousePosition.x - 40,
+      x: mousePosition.x - 50,
       y: mousePosition.y - 40,
       borderRadius: "0",
       mixBlendMode: "difference",
@@ -73,17 +73,17 @@ const About = () => {
   const Leave = () => setCursorVariant("default");
 
   return (
-    <div className="about" style={{ background: 'black' }}>
-      <div className="signUp" style={{ color: "#D5E3EC" }} onMouseEnter={headEnter} onMouseLeave={Leave}>About Us</div>
+    <div className="about" style={{ background: '#AE46FF' }}>
+      <div className="signUp" style={{ color: "#141414" }} onMouseEnter={headEnter} onMouseLeave={Leave}>About Us</div>
       <div className='ig-icon'>
         <div style={{ transform: 'scale(2.5)' }} onMouseEnter={iconEnter} onMouseLeave={Leave}>
-          <Icon icon="ion:logo-instagram" color="#A1C6E8" />
+          <Icon icon="ion:logo-instagram" color="#141414" />
         </div>
         <h2 className='icon-txt'>Follow to get updates</h2>
       </div>
       <div className='go-icon'>
         <div style={{ transform: 'scale(2.5)' }} onMouseEnter={iconEnter} onMouseLeave={Leave}>
-          <Icon icon="ion:logo-google" color="#A1C6E8" />
+          <Icon icon="ion:logo-google" color="#141414" />
         </div>
         <h2 className='icon-txt2'>Fill this survey</h2>
       </div>
@@ -104,7 +104,6 @@ const About = () => {
 
       <img src={shoe} alt="Product-Image" className='abt-img'></img>
       <p className='abt-hid-text'>  COUPON: QTP140D </p>
-      <img src={qrcode} alt="Product-Image" className='abt-img-hid'></img>
 
     </div>
   );
