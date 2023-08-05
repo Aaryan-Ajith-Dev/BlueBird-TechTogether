@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import About from './components/About'
-import './App.css'
+import Main from './pages/Main'
+import { Events } from './components';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <About/>
-      </div>
-    </>
-  )
-}
+    <main className="app transition-all ease-in">
+        <Main/>
+        <Events/>
+    </main>
+  );
+};
 
 export default App
