@@ -5,7 +5,7 @@ import { staggerContainer } from '../utils/motion';
 import { TitleText, TypingText } from '../components/CustomTexts';
 import ExploreCard from '../components/ExploreCard';
 
-const exploreWorlds = [
+const reviews = [
   {
     id: 'review-1',
     imgUrl: '../src/assets/r1.png',
@@ -44,7 +44,7 @@ const Hero = () => {
         <TypingText title="| Reviews" textStyles="text-center" />
         <TitleText title={<>Testimonials</>} textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
+          {reviews.map((world, index) => (
             <ExploreCard
               key={world.id}
               {...world}

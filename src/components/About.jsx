@@ -73,7 +73,7 @@ const About = () => {
   const Leave = () => setCursorVariant("default");
 
   return (
-    <div className="about" style={{ background: '#AE46FF' }}>
+    <div className="about" id="about" style={{ background: '#AE46FF' }}>
       <div className="signUp" style={{ color: "#141414" }} onMouseEnter={headEnter} onMouseLeave={Leave}>About Us</div>
       <div className='ig-icon'>
         <div style={{ transform: 'scale(2.5)' }} onMouseEnter={iconEnter} onMouseLeave={Leave}>

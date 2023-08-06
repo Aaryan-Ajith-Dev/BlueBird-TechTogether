@@ -22,8 +22,8 @@ const Navbar = () => (
       <h2 className=""></h2>
       <h2 className="font-extrabold -[24px] leading-[30.24px] text-white"></h2>
       <h2 className="font-extrabold -[24px] leading-[30.24px] text-white"></h2>
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#' className='hover:text-slate-600 hover:text-base'>About us</a></h2>
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#' className='hover:text-slate-600 hover:text-base'>Events</a></h2>
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#about' className='hover:text-slate-600 hover:text-base'>About us</a></h2>
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#events' className='hover:text-slate-600 hover:text-base'>Events</a></h2>
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"><a href='#' className='hover:text-slate-600 hover:text-base'>login/signup</a></h2>
     </div>
     <img src='../src/assets/blue-bird-logo.png' className='h-90 w-90'></img>

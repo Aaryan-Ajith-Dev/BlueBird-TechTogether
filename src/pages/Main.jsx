@@ -17,7 +17,7 @@ const Main = ()=> {
               exit={{ scale: 1.5, opacity: 0 }}
               transition={{ duration: 0.2 ,ease:'easeInOut'}} 
             >
-    <div>
+    <div id='events'>
         <div className="side">
             <h1 className='ev-title'>Events</h1>
         </div>
