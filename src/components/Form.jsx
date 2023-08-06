@@ -6,25 +6,26 @@ import axios from "axios";
 const Form1 = () => {
   const checkLogin = async(userData)=>{
     const isValid =await axios.post('http://localhost:5000/login',userData)
-    if(isValid === null){
-      alert('Invalid Username');
-    }
-    else if(isValid===false){
+    const check = isValid.data
+    if(check === false){
       alert('Please check you password');
     }
-    else{
+    else if(check){
       alert('Logged in successfully');
+    }
+    else{
+      alert('Invalid Username');
     }
   }
   const checkSignUp = async (userData) => {
     try {
       const response = await axios.post('http://localhost:5000/signup', userData);
-      const isUsernameTaken = response.data;
+      const isUsername = response.data;
   
-      if (isUsernameTaken===false) {
-        alert('Username already taken');
-      } else {
+      if (isUsername) {
         alert('Registered successfully');
+      } else {
+        alert('Username already taken');
       }
     } catch (error) {
       // Handle any errors that occur during the server request
@@ -33,11 +34,10 @@ const Form1 = () => {
     }
   }
 
-  
   const [active, setActive] = useState(false);
-  const [pass,setPass]=useState('');
-  const [name,setName]=useState('');
-  const [email,setEmail]=useState('')
+  const [pass,setPass]=useState(null);
+  const [name,setName]=useState(null);
+  const [email,setEmail]=useState(null)
   const handleRegisterClick = (name,pass) => {
     setActive(true);
   };
