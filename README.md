@@ -3,6 +3,14 @@
 
 This website empowers everyone by bringing inclusivity and communities together with a pride community festival named BlueBird
 
+## Installation
+
+On your terminal clone the git-repo and run these commands
+1) npm install 
+2) npm run build
+3) npm run dev  
+This will start the project on http://localhost:5173
+
 ## Technologies Used
 
 - html
@@ -19,14 +27,7 @@ This website empowers everyone by bringing inclusivity and communities together 
 - tailwind
 - valtio
 
-
-## Installation
-
-On your terminal clone the git-repo and run these commands
-1) npm install 
-2) npm run build
-3) npm run dev  
-This will start the project on http://localhost:5173
+## COMPONENTS
 
 ## Navigation
 We have added a navbar for navigating through different sections of the project on hovering at the top it gets enabled in a nice animation
