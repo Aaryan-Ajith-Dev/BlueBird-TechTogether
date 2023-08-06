@@ -1,10 +1,10 @@
 import shoe from "./shoe.png"
-import loginbg from "./loginbg.png";
+import Formbg from "./Formbg.png";
 import bgimg from "./bgimg.png";
 
 
 export{ 
     shoe,
-    loginbg,
+    Formbg,
     bgimg,
 };
