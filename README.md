@@ -39,7 +39,6 @@ We have added our fest logo symbolizing peace and inclusivity in the world
 Love is in the air we have made many relationships happen and open-ups during our past events and sharing those are some of the testimonials
 
 
-
 ## Events
 On clicking the navbar you can navigate to the event page. which has a rectangle box on clicking you are immersed into an experience like no other travel through the area with your mouse and scroll around to uncover what lies behind different boxes.
 
@@ -47,6 +46,8 @@ You can always go back by pressing the go-back button at the top right ( you nee
 ## Login/Signup
 Now that you are excited for the event it's time to Signup and register for the event. we have implemented backend functionality to store all the Signups using mongodb and added an amazing transition animation form login form and Signup form this is also linked in the navbar.
 
+## Backend
+The node js file uses express to create the app, and uses mongoose to access the database. CORS is used to enable cross origin resource sharing. Two routes have been made, '/signup' and '/login' in the backend which deals with a user signing in and logging in respectively. The both requests have been handled by using a post request where the react js file provides the neccessary data and the node js file returns back.
 
 
 ## About Us
