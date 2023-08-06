@@ -27,7 +27,7 @@ This will start the project on http://localhost:5173
 - tailwind
 - valtio
 
-## COMPONENTS
+# COMPONENTS
 
 ## Navigation
 We have added a navbar for navigating through different sections of the project on hovering at the top it gets enabled in a nice animation
