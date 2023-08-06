@@ -4,11 +4,11 @@
 This website empowers everyone by bringing inclusivity and communities together with a pride community festival named BlueBird
 
 ## Technologies Used
--html
--css
--express
--MongoDB (mongoose)
--cors 
+-- html
+-- css
+-- express
+-- MongoDB (mongoose)
+-- cors 
 -framer-motion
 -github
 -javascript
