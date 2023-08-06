@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, EventH } from '../components';
+import { About, EventH, Form } from '../components';
 import state from '.';
 import {useSnapshot} from "valtio";
 import { AnimatePresence } from 'framer-motion';
@@ -17,11 +17,12 @@ const Main = ()=> {
               exit={{ scale: 1.5, opacity: 0 }}
               transition={{ duration: 0.2 ,ease:'easeInOut'}} 
             >
-    <div id='events'>
+    <div id="events">
         <div className="side">
             <h1 className='ev-title'>Events</h1>
         </div>
         <EventH handleClick={()=> state.intro = false} />
+        <Form/>
         <About/>
     </div>
     </motion.div>
