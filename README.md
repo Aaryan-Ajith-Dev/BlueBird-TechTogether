@@ -59,3 +59,7 @@ The event schedule is not yet decided therefore not shown on the website.
 - [VaibhavBajoriya](https://www.github.com/VaibhavBajoriya)
 - [AaryanDev](https://www.github.com/Aaryan-Ajith-Dev)
 
+## Personal Comments / Contributions
+- First time creating backend in a project
+- First time using Mongoose and MongoDB
+- First US based hackathon that we won - for best use of Mongo DB
